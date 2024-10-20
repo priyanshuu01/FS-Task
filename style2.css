@@ -1,0 +1,31 @@
+div{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+}
+div img{
+    height: 200px;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+h3{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 250px;
+}
+p{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+button{
+    text-decoration: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color:cyan;
+}

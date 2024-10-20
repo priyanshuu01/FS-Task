@@ -1,0 +1,66 @@
+#div1{
+    height: 600px;
+    width: 1000px;
+    border: 2px solid black;
+}
+#div2{
+    height: 50px;
+    width: 998px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 35px;
+}
+#div3{
+    height: 543px;
+    width: 250px;
+    border: 2px solid black;
+}
+#div1 table {
+    width: 748px;
+    border-collapse: collapse;
+    margin: 20px auto;
+    position: absolute;
+    left: 262px;
+    top: 43px;
+    cursor: pointer;
+}
+th, td {
+    border: 2px solid black;
+    padding: 35.5px;
+    text-align:center;
+}
+th, td:hover{
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
+    background-color: aqua;
+}
+th {
+    background-color: #f2f2f2;
+}
+th:hover{
+    background-color: aqua;
+}
+h2 {
+    text-align: center;
+}
+.class{
+    color: aqua;
+} 
+#hours{
+    height: 85px;
+    width:248px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+
+}
+.time{
+    height: 88px;
+    width: 248px;
+    border: 2px solid black;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

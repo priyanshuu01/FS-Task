@@ -1,66 +1,75 @@
-#div1{
-    height: 600px;
-    width: 1000px;
-    border: 2px solid black;
-}
-#div2{
-    height: 50px;
-    width: 998px;
-    border: 2px solid black;
-    text-align: center;
-    font-size: 35px;
-}
-#div3{
-    height: 543px;
-    width: 250px;
-    border: 2px solid black;
-}
-#div1 table {
-    width: 748px;
-    border-collapse: collapse;
-    margin: 20px auto;
-    position: absolute;
-    left: 262px;
-    top: 43px;
-    cursor: pointer;
-}
-th, td {
-    border: 2px solid black;
-    padding: 35.5px;
-    text-align:center;
-}
-th, td:hover{
-    transition: background-color 0.3s ease;
-    transition: color 0.3s ease;
-    background-color: aqua;
-}
-th {
-    background-color: #f2f2f2;
-}
-th:hover{
-    background-color: aqua;
-}
-h2 {
-    text-align: center;
-}
-.class{
-    color: aqua;
-} 
-#hours{
-    height: 85px;
-    width:248px;
-    border: 2px solid black;
-    text-align: center;
-    font-size: 30px;
+/* style.css */
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
-.time{
-    height: 88px;
-    width: 248px;
-    border: 2px solid black;
-    text-align: center;
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
 }
-a{
-    text-decoration: none;
-    color: black;
+
+#root {
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#inputform {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#inputform input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+#inputform input[type="text"]:focus {
+  border-color: #007bff;
+}
+
+#btn {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button#delete {
+  background-color: #dc3545;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button#delete:hover {
+  background-color: #c82333;
 }
